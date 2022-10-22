@@ -24,97 +24,114 @@
 
   <body>
     <header class="header">
-      <div class="header-main">
-        <div class="heading-primary">
-          <h1>Когтинивные искажения в программировании</h1>
-        </div>
-        <div class="heading-photo-box">
+      <div class="container">
+        <div class="header-main">
+          <h1 class="heading-primary">
+            <span>Когтинивные<br />искажения<br /></span>в программировании
+          </h1>
           <img
-            src="/img/header.png"
+            src="img/header.png"
             alt="Hexlet student is studying"
             class="heading-photo"
           />
         </div>
-      </div>
-      <div class="description">
-        <div class="description-text-box">
-          <p class="description-text">
-            Мы, разработчики, часто сталкиваемся с проблемами, которые идут
-            вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
-            картину. Некоторые из этих проблем малозаметны, некоторые
-            существенны. Иногда с ними можно как-то справиться, а иногда, к
-            сожалению, нет.
-          </p>
-          <p class="description-text">
-            Вместе они формируют что-то вроде замкнутого цикла, и это может
-            привести к длительной потере продуктивности, багам и бесконечному
-            разочарованию.
-          </p>
-          <p class="description-text">
-            Если мы сможем минимизировать воздействие одного или нескольких из
-            этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
-          </p>
+        <div class="description">
+          <div class="description-text-box">
+            <div class="description-text">
+              Мы, разработчики, часто сталкиваемся с проблемами, которые идут
+              вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
+              картину. Некоторые из этих проблем малозаметны, некоторые
+              существенны. Иногда с ними можно как-то справиться, а иногда, к
+              сожалению, нет.
+            </div>
+            <div class="description-text">
+              <p>
+                Вместе они формируют что-то вроде замкнутого цикла, и это может
+                привести к длительной потере продуктивности, багам и
+                бесконечному разочарованию.<br /><br />
+              </p>
+              <p>
+                Если мы сможем минимизировать воздействие одного или нескольких
+                из этих факторов, то сможем сломать и цикл, а остатки
+                нейтрализовать.
+              </p>
+              <a href="#types" class="description-btn">Подробнее</a>
+            </div>
+          </div>
         </div>
-        <a href="#" class="description-btn">Подробнее</a>
       </div>
     </header>
 
     <main>
       <section class="section-about">
-        <div class="heading-secondary">
-          <h2>Что же это такое, когнитивные искажения?</h2>
+        <div class="main-container">
+          <div class="section-about-text">
+            <div class="heading-secondary">
+              <h2>
+                Что же это такое,<br />
+                <span>когнитивные искажения?</span>
+              </h2>
+            </div>
+            <p class="about-statement">
+              Что такое когнитивные искажения. Petrovna Channel
+            </p>
+          </div>
+          <iframe
+            class="video"
+            width="919"
+            height="569"
+            src="https://www.youtube.com/embed/jie9AizBqss"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </div>
-        <p class="about-statement">
-          Что такое когнитивные искажения. Petrovna Channel
-        </p>
-        <video class="about-video">
-          <source src="#" type="video/mp4" />
-        </video>
       </section>
-      <section class="section-types">
-        <div class="types-container">
-          <div class="heading-secondary">
-            <h2>
-              5 когнитивных искажений, о существовании которых стоит помнить
+      <section class="section-types" id="types">
+        <div class="main-container">
+          <div class="types-container">
+            <h2 class="types-heading">
+              <span>5 когнитивных искажений,</span><br />о существовании которых
+              стоит помнить
             </h2>
-          </div>
-          <div class="types-box">
-            <div class="types-box-id">1</div>
-            <div class="types-box-title">Эффект ИКЕА</div>
-            <div class="types-box-text">
-              Вы переоцениваете собственные решения, и, как следствие,
-              недооцениваете решения других.
+            <div class="types-box">
+              <div class="types-box-id">1</div>
+              <h3 class="types-box-title">Эффект ИКЕА</h3>
+              <div class="types-box-text">
+                Вы переоцениваете собственные решения, и, как следствие,
+                недооцениваете решения других.
+              </div>
             </div>
-          </div>
-          <div class="types-box">
-            <div class="types-box-id">2</div>
-            <div class="types-box-title">Преждевременная оптимизация</div>
-            <div class="types-box-text">
-              Вы оптимизируете что-то задолго до того, как в этом появляется
-              необходимость.
+            <div class="types-box">
+              <div class="types-box-id">2</div>
+              <h3 class="types-box-title">Преждевременная оптимизация</h3>
+              <div class="types-box-text">
+                Вы оптимизируете что-то задолго до того, как в этом появляется
+                необходимость.
+              </div>
             </div>
-          </div>
-          <div class="types-box">
-            <div class="types-box-id">3</div>
-            <div class="types-box-title">Искажение новизны</div>
-            <div class="types-box-text">
-              Вы даёте более высокую оценку тем событиям, которые произошли
-              недавно, и недооцениваете более старые.
+            <div class="types-box">
+              <div class="types-box-id">3</div>
+              <h3 class="types-box-title">Искажение новизны</h3>
+              <div class="types-box-text">
+                Вы даёте более высокую оценку тем событиям, которые произошли
+                недавно, и недооцениваете более старые.
+              </div>
             </div>
-          </div>
-          <div class="types-box">
-            <div class="types-box-id">4</div>
-            <div class="types-box-title">Гиперболическое обесценивание</div>
-            <div class="types-box-text">
-              Вы гонитесь за немедленной маленькой выгодой и игнорируете более
-              крупную, недоступную сейчас, но доступную в будущем.
+            <div class="types-box">
+              <div class="types-box-id">4</div>
+              <h3 class="types-box-title">Гиперболическое обесценивание</h3>
+              <div class="types-box-text">
+                Вы гонитесь за немедленной маленькой выгодой и игнорируете более
+                крупную, недоступную сейчас, но доступную в будущем.
+              </div>
             </div>
-          </div>
-          <div class="types-box">
-            <div class="types-box-id">5</div>
-            <div class="types-box-title">Ошибка планирования</div>
-            <div class="types-box-text">
-              Неправильно рассчитывать время необходимое для завершения задачи.
+            <div class="types-box">
+              <div class="types-box-id">5</div>
+              <h3 class="types-box-title">Ошибка планирования</h3>
+              <div class="types-box-text">
+                Неправильно рассчитывать время необходимое для завершения
+                задачи.
+              </div>
             </div>
           </div>
         </div>
@@ -123,7 +140,7 @@
         <div class="details-box">
           <div class="details-img">
             <img
-              src="/img/ikea.png"
+              src="img/ikea.png"
               alt="Hexlet students describing an idea to each other"
             />
           </div>
@@ -168,7 +185,7 @@
           </div>
           <div class="details-img">
             <img
-              src="/img/optimization.png"
+              src="img/optimization.png"
               alt="Hexlet student launching a rocket"
             />
           </div>
@@ -192,7 +209,7 @@
       <section class="section-details background-white">
         <div class="details-box">
           <div class="details-img">
-            <img src="/img/new.png" alt="Hexlet student has an idea" />
+            <img src="img/new.png" alt="Hexlet student has an idea" />
           </div>
           <div class="details-text-box">
             <div class="heading-small"><h3>Когнитивные искажения</h3></div>
@@ -235,7 +252,7 @@
           </div>
           <div class="details-img">
             <img
-              src="/img/hyperbola.png"
+              src="img/hyperbola.png"
               alt="Hexlet student in front of a mountain"
             />
           </div>
@@ -263,7 +280,7 @@
         <div class="details-box">
           <div class="details-img">
             <img
-              src="/img/planning_mistake.png"
+              src="img/planning_mistake.png"
               alt="Hexlet student doing planning"
             />
           </div>
