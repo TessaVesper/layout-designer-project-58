@@ -17,6 +17,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  background-color: #f5f4f0;
 }
 
 .container {
@@ -33,18 +34,18 @@ body {
   margin: 100px;
 }
 
-.header::before {
-  position: absolute;
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
 
-  width: 100%;
-  height: 100%;
-
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.wrapper-picture {
   opacity: 0.1;
-
-  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 
 h1,
@@ -68,11 +69,14 @@ span {
   color: #fe8a02;
 }
 
+.heading-primary {
+  z-index: 2;
+}
+
 .heading-photo {
   position: absolute;
   top: -45px;
   right: -270px;
-  z-index: -1;
 
   width: auto;
   height: 525px;
@@ -205,7 +209,6 @@ span {
 /* SECTION IKEA EFFECT */
 
 .details-box {
-  position: relative;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -213,21 +216,13 @@ span {
   column-gap: 30px;
 }
 
-.background-white::before {
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
-
-  background-image: url("../img/background.png");
-  background-size: cover;
-  opacity: 0.1;
-
-  content: "";
-}
 
 .background-white {
   background-color: #f5f4f0;
+}
+
+.background-brown {
+  background-color: #B09A81;
 }
 
 .section-details {
@@ -261,17 +256,39 @@ span {
 }
 
 .details-subheading {
-  display: block;
-
+  display: inline-block;
   margin-top: 100px;
-  padding: 5px auto 5px 10px;
+  padding: 5px 964px 5px 10px;
 
   color: #fff;
   font-weight: 700;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
   line-height: 16.8px;
   text-transform: uppercase;
 
   background-color: #b09a81;
+}
+
+.reflection-text-box {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.heading-brown {
+  color: #D7CCC0;
+}
+
+.heading-secondary-brown {
+  color: #fff;
+}
+
+.subheading-brown {
+  color: #B09A81;
+  background-color: #fff;
+}
+
+.text-box-brown {
+  color: #fff;
 }
