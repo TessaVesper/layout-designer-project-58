@@ -259,7 +259,6 @@ span {
   display: inline-block;
   margin-top: 100px;
   padding: 5px 964px 5px 10px;
-
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -291,4 +290,84 @@ span {
 
 .text-box-brown {
   color: #fff;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription {
+  display: grid;
+  width: 1110px;
+  background-color: #42413C;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 55px;
+  padding-right: 55px;
+  justify-content: space-between;
+}
+
+.subscription-title {
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  color: #FFFFFF;
+
+  align-self: center;
+}
+
+.subscription-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subscription-email {
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+#email-field {
+  width: 423px;
+  height: 50px;
+}
+
+.subscription-agreement {
+  font-size: 12px;
+  line-height: 19px;
+  color: #fff;
+}
+
+input::placeholder {
+  opacity: 0.2;
+  color: #757575;
+  padding-left: 15px;
+  font-size: 13.1px;
+  line-height: 21px;
+}
+
+.subscribe-btn {
+  position: relative;
+}
+
+.subscribe-btn::before {
+  content: url('data:image/svg+xml;charset=utf-8,<svg width="72" height="48" viewBox="0 0 72 48" fill="none" xmlns="http://www.w3.org/2000/svg">'
+  <rect width="72" height="48" fill="#FE8A02" />
+  <path
+    d="M46 14L35 25"
+    stroke="white"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M46 14L39 34L35 25L26 21L46 14Z"
+    stroke="white"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>')
 }

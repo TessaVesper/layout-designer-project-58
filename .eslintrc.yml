@@ -5,6 +5,4 @@ extends: airbnb-base
 overrides: []
 parserOptions:
   ecmaVersion: latest
-  sourceType: module
 rules: {}
-plugins: [html]

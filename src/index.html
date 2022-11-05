@@ -177,7 +177,6 @@
           </div>
         </div>
         </div>
-        </div>
       </section>
 
       <section class="section-details background-brown" id="premature-optimization">
@@ -220,7 +219,7 @@
         </div>
       </section>
 
-      <section class="section-details background-white">
+      <section class="section-details background-white" id="distortion-of-novelty">
         <div class="main-container">
         <div class="details-box">
           <div class="details-img">
@@ -254,7 +253,7 @@
         </div>
       </section>
 
-      <section class="section-details background-brown">
+      <section class="section-details background-brown" id="hyperbolic-depreciation">
         <div class="main-container">
         <div class="details-box">
           <div class="details-text-box">
@@ -294,7 +293,7 @@
         </div>
       </section>
 
-      <section class="section-details background-white">
+      <section class="section-details background-white" id="errors-in-planning">
         <div class="main-container">
         <div class="details-box">
           <div class="details-img">
@@ -330,14 +329,16 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="main-container">
       <div class="subscription">
         <div class="subscription-title">
-          Хотите узнать больше? Подпишитесь на обновления
+          Хотите узнать больше?<br> Подпишитесь на обновления
         </div>
         <div class="subscription-box">
           <form action="#">
-            <div class="subscription-title">Электронная почта</div>
+            <div class="subscription-email">Электронная почта</div>
             <input
+              id="email-field"
               type="email"
               placeholder="Ваша электронная почта"
               name="mail"
@@ -347,29 +348,6 @@
               Подписываясь, вы принимаете правила сервиса
             </div>
             <button class="subscribe-btn">
-              <svg
-                width="72"
-                height="48"
-                viewBox="0 0 72 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect width="72" height="48" fill="#FE8A02" />
-                <path
-                  d="M46 14L35 25"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M46 14L39 34L35 25L26 21L46 14Z"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
             </button>
           </form>
         </div>
@@ -385,6 +363,7 @@
         <div class="links-hexlet">
           <a href="#">Курсы программирования Hexlet</a>
         </div>
+      </div>
       </div>
     </footer>
   </body>
