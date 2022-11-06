@@ -359,15 +359,15 @@ span {
 
   color: #fff;
   font-size: 12px;
-  line-height: 19px;
+  line-height: 19.2px;
 }
 
 input::placeholder {
-  padding-left: 15px;
+  padding: 15px;
 
   color: #757575;
   font-size: 13.1px;
-  line-height: 21px;
+  line-height: 20.96px;
 
   opacity: 0.2;
 }
@@ -405,6 +405,8 @@ input {
 
 .rules {
   color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
 }
 
 .footer-links {
@@ -416,6 +418,8 @@ input {
   padding-bottom: 111px;
 
   color: #000;
+  font-size: 14px;
+  line-height: 22.4px;
 }
 
 .links-hexlet > a {
