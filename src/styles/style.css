@@ -338,11 +338,8 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 4px;
   padding-left: 10px;
-}
-
-.subscription-email {
-  padding-bottom: 5px;
 
   color: #fff;
   font-size: 18px;
