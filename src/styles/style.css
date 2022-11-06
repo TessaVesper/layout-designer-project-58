@@ -17,6 +17,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
+
   background-color: #f5f4f0;
 }
 
@@ -35,17 +36,20 @@ body {
 }
 
 .wrapper {
-  overflow: hidden;
   position: relative;
+
+  overflow: hidden;
 }
 
 .wrapper-picture {
-  opacity: 0.1;
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
+
   width: 100%;
   height: auto;
+
+  opacity: 0.1;
 }
 
 h1,
@@ -159,6 +163,8 @@ span {
 }
 
 .types-box {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   padding: 24px;
@@ -166,6 +172,17 @@ span {
   background-color: #f5f4f0;
 
   transition: all 0.5s;
+}
+
+.types-box > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
 }
 
 /* .types-box:active,
@@ -216,13 +233,12 @@ span {
   column-gap: 30px;
 }
 
-
 .background-white {
   background-color: #f5f4f0;
 }
 
 .background-brown {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .section-details {
@@ -259,6 +275,7 @@ span {
   display: inline-block;
   margin-top: 100px;
   padding: 5px 964px 5px 10px;
+
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -269,14 +286,15 @@ span {
 }
 
 .reflection-text-box {
-  margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+
   column-gap: 30px;
 }
 
 .heading-brown {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .heading-secondary-brown {
@@ -284,7 +302,8 @@ span {
 }
 
 .subheading-brown {
-  color: #B09A81;
+  color: #b09a81;
+
   background-color: #fff;
 }
 
@@ -299,22 +318,24 @@ span {
 
 .subscription {
   display: grid;
-  width: 1110px;
-  background-color: #42413C;
   grid-template-columns: 1fr 1fr;
-  padding-left: 55px;
-  padding-right: 55px;
   justify-content: space-between;
+  width: 1110px;
+  height: 190px;
+  padding-left: 55px;
+
+  background-color: #42413c;
 }
 
 .subscription-title {
-  font-family: Neucha, sans-serif;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 41px;
-  color: #FFFFFF;
 
   align-self: center;
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  line-height: 41px;
 }
 
 .subscription-box {
@@ -324,9 +345,9 @@ span {
 }
 
 .subscription-email {
+  color: #fff;
   font-size: 18px;
   line-height: 29px;
-  color: #FFFFFF;
 }
 
 #email-field {
@@ -335,39 +356,71 @@ span {
 }
 
 .subscription-agreement {
+  color: #fff;
   font-size: 12px;
   line-height: 19px;
-  color: #fff;
 }
 
 input::placeholder {
-  opacity: 0.2;
-  color: #757575;
   padding-left: 15px;
+
+  color: #757575;
   font-size: 13.1px;
   line-height: 21px;
+
+  opacity: 0.2;
+}
+
+input {
+  border: 0;
+  outline: 0;
 }
 
 .subscribe-btn {
   position: relative;
+
+  width: 70px;
+  height: 50px;
+
+  background-color: #fe8a02;
+  border: none;
+  transform: translate(-5px, 6px);
+
+  transition: all 0.2s;
+}
+
+.subscribe-btn:active,
+.subscribe-btn:hover {
+  background-color: #ea7600;
 }
 
 .subscribe-btn::before {
-  content: url('data:image/svg+xml;charset=utf-8,<svg width="72" height="48" viewBox="0 0 72 48" fill="none" xmlns="http://www.w3.org/2000/svg">'
-  <rect width="72" height="48" fill="#FE8A02" />
-  <path
-    d="M46 14L35 25"
-    stroke="white"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-  <path
-    d="M46 14L39 34L35 25L26 21L46 14Z"
-    stroke="white"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-</svg>')
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  content: url('data:image/svg+xml;charset=utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+
+.rules {
+  color: inherit;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding-top: 76px;
+  padding-bottom: 111px;
+
+  color: #000;
+}
+
+.links-hexlet > a {
+  color: #007dc1;
+}
+
+.links-article > a {
+  color: #007dc1;
 }
