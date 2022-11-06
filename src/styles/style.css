@@ -185,11 +185,6 @@ span {
   height: 100%;
 }
 
-/* .types-box:active,
-.types-box:hover {
-  background-color: #fe8a02;
-} */
-
 .types-box-id {
   color: #42413c;
   font-weight: 400;
@@ -223,8 +218,6 @@ span {
   color: #fff;
 }
 
-/* SECTION IKEA EFFECT */
-
 .details-box {
 
   display: grid;
@@ -248,6 +241,9 @@ span {
 }
 
 .details-image {
+  width: 578px;
+  height: 434px;
+
   vertical-align: middle;
 
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
@@ -322,7 +318,6 @@ span {
   justify-content: space-between;
   width: 1110px;
   height: 190px;
-  padding-left: 55px;
 
   background-color: #42413c;
 }
@@ -330,6 +325,7 @@ span {
 .subscription-title {
 
   align-self: center;
+  padding-left: 55px;
 
   color: #fff;
   font-weight: 400;
