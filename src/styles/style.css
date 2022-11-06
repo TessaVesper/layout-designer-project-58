@@ -414,7 +414,7 @@ input {
   flex-direction: column;
   gap: 16px;
   align-items: center;
-  padding-top: 74px;
+  padding-top: 76px;
   padding-bottom: 111px;
 
   color: #000;
@@ -424,10 +424,14 @@ input {
 
 .links-hexlet > a {
   color: #007dc1;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
 }
 
 .links-article > a {
   color: #007dc1;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
 }
 
 #premature-optimization {
