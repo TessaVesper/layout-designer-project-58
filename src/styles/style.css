@@ -71,7 +71,7 @@ header::before {
 
 .header {
   position: relative;
-  width: 52%;
+  display: flex;
 }
 
 header {
@@ -88,6 +88,7 @@ header {
 .header-img {
   position: absolute;
   height: 525px;
+  width: auto;
   top: -55px;
   left: 290px;
 }
