@@ -89,8 +89,8 @@ header {
   position: absolute;
   height: 525px;
   width: auto;
-  top: -55px;
-  left: 290px;
+  top: -50px;
+  left: 292px;
 }
 
 .col-2 {
@@ -100,7 +100,7 @@ header {
 }
 
 .header-column {
-  margin-top: 200px;
+  margin-top: 185px;
 }
 
 .btn:link,
