@@ -84,14 +84,17 @@ header {
   position: absolute;
   height: 525px;
   top: -55px;
-  left: 300px;
+  left: 290px;
 }
 
 .col-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  padding-top: 200px;
+}
+
+.header-column {
+  margin-top: 200px;
 }
 
 .btn:link,
