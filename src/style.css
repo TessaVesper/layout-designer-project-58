@@ -53,7 +53,7 @@ h3 {
 
 header::before {
   content: "";
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -171,15 +171,15 @@ footer .wrapper {
 }
 
 .grid-id {
-  font: 64px/70px Neucha, sans-serif;
+  font: 64px/70.5px Neucha, sans-serif;
+  font-weight: 400;
   color: var(--main-dark);
 }
 
 .grid-title {
   font: 34px/41px Neucha, sans-serif;
   color: var(--main);
-  padding-top: 40px;
-  padding-bottom: 16px;
+  padding: 30px 0 16px;
 }
 
 .grid-text {
@@ -213,7 +213,7 @@ footer .wrapper {
 .light-colored::before,
 .dark-colored::before {
   content: "";
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
